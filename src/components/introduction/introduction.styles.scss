@@ -1,23 +1,28 @@
+.wrapper {
+  display: flex;
+}
+.wrapper-column {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > div {
+  font-size: 4vh;
+  color: white;
+  background: hotpink;
+  margin: .1em;
+  padding: .3em;
+  border-radius: 3px;
+  flex: 1;
+}
+.wrapper .wrapper > div {
+  background: pink;
+  color: hotpink;
+}
+
 .introduction{
-  @media all and (min-width: 1690px) {
-    background-color: white;
-    height: 50em;
-    width: 100em;
-    border-radius: 1%;
-  }
-  @media all and (max-width: 1690px) {
+  background: white;
+}
 
-  }
-  @media all and (max-width: 1280px) {
-
-  }
-  @media all and (max-width: 980px) {
-    background: white;
-    margin-left: 0;
-    height: 30em;
-    border-radius: 1%;
-  }
-  @media all and (max-width: 480px) {
-
-  }
+.title{
+  font-size: 60px;
 }
