@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+
+.profile {
+  text-align: center;
+  @media all and (min-width: 1690px) {
+    h1{
+      color: #2b2e2c;
+      margin-top: 1em;
+      font-size: 6em;
+      font-family: 'Alfa Slab One', cursive;
+      text-shadow: 0.04em 0.020em #30b85b;
+    }
+    img{
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      border-width: 5px;
+    }
+  }
+  @media all and (max-width: 1690px) {
+    h1{
+      color: #2b2e2c;
+      margin-top: 1em;
+      font-size: 3em;
+      font-family: 'Alfa Slab One', cursive;
+      text-shadow: 0.04em 0.020em #30b85b;
+    }
+    img{
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      border-width: 5px;
+    }
+  }
+  @media all and (max-width: 1280px) {
+    h1{
+      color: #2b2e2c;
+      margin-top: 1em;
+      font-size: 3em;
+      font-family: 'Alfa Slab One', cursive;
+      text-shadow: 0.04em 0.020em #30b85b;
+    }
+    img{
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      border-width: 5px;
+    }
+  }
+  @media all and (max-width: 980px) {
+    h1{
+      color: #2b2e2c;
+      margin-top: 1em;
+      font-size: 3em;
+      font-family: 'Alfa Slab One', cursive;
+      text-shadow: 0.04em 0.020em #30b85b;
+    }
+    img{
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      border-width: 5px;
+      width: 225px;
+      height: auto;
+    }
+  }
+  @media all and (max-width: 480px) {
+    h1{
+      color: #2b2e2c;
+      margin-top: 1em;
+      font-size: 3em;
+      font-family: 'Alfa Slab One', cursive;
+      text-shadow: 0.04em 0.020em #30b85b;
+    }
+    img{
+      border-radius: 50%;
+      border-color: white;
+      border-style: solid;
+      border-width: 5px;
+      width: 200px;
+      height: auto;
+    }
+  }
+}

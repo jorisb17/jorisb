@@ -1,0 +1,25 @@
+.profile{
+  margin-top: 8em;
+  align-content: center;
+}
+
+.introduction{
+    margin-top: 20em;
+    margin-bottom: 10em;
+  @media all and (max-width: 1690px) {
+    margin-top: 20em;
+    margin-bottom: 10em;
+  }
+  @media all and (max-width: 1280px) {
+    margin-top: 20em;
+    margin-bottom: 10em;
+  }
+  @media all and (max-width: 980px) {
+    margin-top: 25em;
+    margin-bottom: 2em;
+  }
+  @media all and (max-width: 480px) {
+    margin-top: 25em;
+    margin-bottom: 2em;
+  }
+}
