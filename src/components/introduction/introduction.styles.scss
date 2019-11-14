@@ -1,5 +1,11 @@
 .wrapper {
   display: flex;
+  @media all and (max-width: 980px) {
+    display: inline;
+  }
+  @media all and (max-width: 480px) {
+    display: inline;
+  }
 }
 .wrapper-column {
   display: flex;
@@ -7,22 +13,68 @@
 }
 .wrapper > div {
   font-size: 4vh;
-  color: white;
-  background: hotpink;
   margin: .1em;
   padding: .3em;
   border-radius: 3px;
   flex: 1;
 }
-.wrapper .wrapper > div {
-  background: pink;
-  color: hotpink;
+
+.divider{
+  height: 1px;
+  margin-top: 0.1em;
+  margin-right: 2em;
+  background-color: #2b2e2c;
 }
 
 .introduction{
   background: white;
+  margin: 20em 2em 10em;
+  border-radius: 10px;
+  text-align: left;
+  @media all and (max-width: 1690px) {
+    margin-top: 20em;
+    margin-bottom: 10em;
+  }
+  @media all and (max-width: 1280px) {
+    margin-top: 20em;
+    margin-bottom: 10em;
+  }
+  @media all and (max-width: 980px) {
+    margin-top: 25em;
+    margin-bottom: 2em;
+  }
+  @media all and (max-width: 480px) {
+    margin-top: 25em;
+    margin-bottom: 2em;
+  }
+  a:link {
+    color: #2b2e2c;
+  }
+
+  /* visited link */
+  a:visited {
+    color: #2b2e2c;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: #2b2e2c;
+  }
+
+  /* selected link */
+  a:active {
+    color: #2b2e2c;
+  }
 }
 
-.title{
-  font-size: 60px;
+.col-1{
+  p{
+    color: #2b2e2c;
+    font-size: 25px;
+  }
+  .title{
+    margin:0;
+    font-size: 55px;
+    color: #2b2e2c;
+  }
 }
