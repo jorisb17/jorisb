@@ -1,11 +1,27 @@
 .social{
-  #container {
+  .title{
+    font-size: 30px;
+    color: #2b2e2c;
+    margin:0;
+  }
+  .container-git {
     background-image:url("../../assets/github.png");
     background-position:center;
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
+  }
+  .container-linked {
+    margin-top: 0.2em;
+    background-image:url("../../assets/li.png");
+    background-position:center;
+    width:40px;
+    height:34px;
   }
   .username{
     margin-left: 2em;
+    font-size: 25px;
+  }
+  a:hover{
+    color: #30b85b;
   }
 }
