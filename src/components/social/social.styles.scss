@@ -5,20 +5,17 @@
     margin:0;
   }
   .container-git {
-    background-image:url("../../assets/github.png");
-    background-position:center;
-    width:40px;
-    height:40px;
+    display: flex;
+    align-content: center;
   }
   .container-linked {
     margin-top: 0.2em;
-    background-image:url("../../assets/li.png");
-    background-position:center;
-    width:40px;
-    height:34px;
+    display: flex;
   }
   .username{
-    margin-left: 2em;
+    display: flex;
+    align-content: center;
+    margin-left: 0.5em;
     font-size: 25px;
   }
   a:hover{
