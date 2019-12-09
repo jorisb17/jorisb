@@ -28,7 +28,7 @@
 
 .introduction{
   background: white;
-  margin: 20em 2em 10em;
+  margin: calc(100vh - 20px) 2em 10em;
   border-radius: 10px;
   text-align: left;
   @media all and (max-width: 1690px) {
@@ -36,15 +36,15 @@
     margin-bottom: 10em;
   }
   @media all and (max-width: 1280px) {
-    margin-top: 20em;
+    margin-top: calc(100vh - 20px) ;
     margin-bottom: 10em;
   }
   @media all and (max-width: 980px) {
-    margin-top: 25em;
+    margin-top: calc(100vh - 20px);
     margin-bottom: 2em;
   }
   @media all and (max-width: 480px) {
-    margin-top: 25em;
+    margin-top: calc(100vh - 20px);
     margin-bottom: 2em;
   }
 }
