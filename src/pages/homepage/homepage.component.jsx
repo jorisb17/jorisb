@@ -7,7 +7,8 @@ const HomepageComponent = () => {
     return (
         <div>
             <ProfilePictureComponent className={'profile'}/>
-            <IntroductionComponent className={'introduction'}/>
+            <p><a href={"#intro"}>intro</a></p>
+            <IntroductionComponent className={'introduction'} id={"#intro"}/>
         </div>
     );
 };

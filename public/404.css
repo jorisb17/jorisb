@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: url("./assets/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    color:  #2b2e2c;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a:link {
+    color: #2b2e2c;
+}
+
+/* visited link */
+a:visited {
+    color: #2b2e2c;
+}
+
+/* mouse over link */
+a:hover {
+    color: #30b85b;
+}
+
+/* selected link */
+a:active {
+    color: #2b2e2c;
+}
+
+.wrap-404 {
+    text-align: center;
+    margin-top: 10%;
+}
+.wrap-404 h1 {
+    font-size: 40px;
+}
+.wrap-404 p {
+    font-size: 30px;
+}
+.wrap-404 img {
+    height: auto;
+    width: 600px;
+}
+@media (max-width: 1690px) {
+    .wrap-404 img {
+        width: 400px;
+    }
+}
+@media (max-width: 1280px) {
+    .wrap-404 img {
+        width: 400px;
+    }
+}
+@media (max-width: 980px) {
+    .wrap-404 img {
+        width: 300px;
+    }
+}
+@media (max-width: 480px) {
+    .wrap-404 img {
+        width: 300px;
+        padding-bottom: 25em;
+    }
+}
